@@ -1,0 +1,4 @@
+Link to area chosen:
+https://mapzen.com/data/metro-extracts/metro/new-york_new-york/.
+
+I used a pre-defined area provided by mapzen.  I live near and work NYC, and grew up in the area. 

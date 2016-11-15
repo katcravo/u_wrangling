@@ -1,0 +1,7 @@
+References:
+ 
+United States Postal Service (usps.com) - Look up a ZIP Code - Cities by ZIP Code.  https://tools.usps.com/go/ZipLookupAction!input.action  Accessed November 5, 2016.
+ 
+Metro Extracts - New York https://mapzen.com/data/metro-extracts/metro/new-york_new-york/.  Raw OpenStreetMap datasets - OSM XML.  Accessed October 25, 2016.
+ 
+Stack Overflow - Pymongo, query on list field, and/or. http://stackoverflow.com/questions/12064764/pymongo-query-on-list-field-and-or. Accessed November 6, 2016
