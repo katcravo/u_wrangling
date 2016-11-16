@@ -1,0 +1,61 @@
+from wrangling_utils import *
+filename = 'osm/sample.osm'
+
+street_mapping = { "Rd" : "Road",
+    "Steet" : "Street",
+    "STREET" : "Street",
+    "avenue" : "Avenue",
+    "ROAD" : "Road",
+    "Pkwy" : "Parkway",
+    "Cir" : "Circle",
+    "AVenue" : "Avenue",
+    "Tunrpike" : "Turnpike",
+    "Broadwat" : "Broadway",
+    "CIRCLE" : "Circle",
+    "Turnlike" : "Turnpike",
+    "street" : "Street",
+    "Dr." : "Drive",
+    "Aveneu" : "Avenue",
+    "Ave." : "Avenue",
+    "Avenue," : "Avenue",
+    "Streeet" : "Street",
+    "Pky" : "Parkway",
+    "PLACE" : "Place",
+    "CT)" : "Court",
+    "road" : "Road",
+    "St." : "Street",
+    "Tirnpike" : "Turnpike",
+    "LANE" : "Lane",
+    "boulevard" : "Boulevard",
+    "Ave," : "Avenue",
+    "Avene" : "Avenue",
+    "AVE." : "Avenue",
+    "Tpke" : "Turnpike",
+    "PARKWAY" : "Parkway",
+    "Hwy" : "Highway",
+    "Ave" : "Avenue",
+    "Blvd." : "Boulevard",
+    "Ct" : "Court",
+    "Ln" : "Lane",
+    "DRIVE" : "Drive",
+    "ave" : "Avenue",
+    "blvd" : "Boulevard",
+    "Ct." : "Court",
+    "AVENUE" : "Avenue",
+    "Blv." : "Boulevard",
+    "Tunpike" : "Turnpike",
+    "Dr" : "Drive",
+    "Expy" : "Expressway",
+    "St" : "Street",
+    "lane" : "Lane",
+    "ST" : "Street",
+    "drive" : "Drive",
+    "st" : "Street",
+    "Blvd" : "Boulevard"
+    }
+
+"""
+******************  GENERATING THE JSON FILE ****************************
+"""
+process_map(filename, street_mapping, False)
+
